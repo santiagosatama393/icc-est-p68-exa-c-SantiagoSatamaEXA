@@ -24,6 +24,9 @@ Atributos obligatorios:
 - `private Athlete[] athletes;`
 
 ### Clase `Tournament`
+
+
+
 Atributos obligatorios:
 
 - `private String name;`
