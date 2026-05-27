@@ -1,4 +1,6 @@
 
+import models.Athlete;
+import models.Club;
 public class AppTournament {
 
         public static Tournament[] getTournaments() {
@@ -139,6 +141,27 @@ public class AppTournament {
                  * Aquí debe estar el código para ejecutar la aplicación, utilizando el
                  * TournamentController para mostrar los resultados de cada torneo.
                  */
+
+                 Tournament[]arrTournament = AppTournament.getTournament[];
+                 TournamentController controller = new TournamentController[];
+                 System.out.println("Arreglo original");
+                 Tournament.mostrarArreglo(arrTournament);
+                 System.out.println("arreglo ordenado");
+                 controller.sortSelectionDesc(arrTournament);
+                 TournamentController.mostrarArreglo(arrTournament);
+                 Tournament encontrad = controller.binarySearchByTotalStarterPointsFilaB(arrTournament, totalStarterPoints);
+                 String encontrado1;
+                 if(encontrado == null)
+                        System.out.println("no se encontro");
+                 else
+                        System.out.println("torneo encontrado"+ encontrado1);
+                Tournament encontrado1 = controller.binarySearchByTotalStarterPointsFilaB(arrTournament, totalStarterPoints);
+                 if(encontrado1 == null)
+                        System.out.println("no se encontro");
+                 else
+                        System.out.println("torneo encontrado"+ encontrado1);
+
+
 
         }
 }
